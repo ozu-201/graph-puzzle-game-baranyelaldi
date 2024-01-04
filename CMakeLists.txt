@@ -81,4 +81,4 @@ add_executable(graph_puzzle_game_baranyelaldi
         List/Queue.h
         List/Stack.cpp
         List/Stack.h
-        main.cpp PuzzleGame.cpp PuzzleGame.h)
+        main.cpp)
