@@ -5,10 +5,11 @@
 #ifndef DATASTRUCTURES_CPP_GRAPH_H
 #define DATASTRUCTURES_CPP_GRAPH_H
 
-
+#include <windows.h>
 #include <string>
 #include "EdgeList.h"
 #include "../../General/AbstractGraph.h"
+
 
 namespace list {
 

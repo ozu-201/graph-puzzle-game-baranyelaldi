@@ -2,14 +2,17 @@
 // Created by by028711 on 12/14/2023.
 //
 
+#include <windows.h>
 #include <iostream>
 #include <fstream>
 #include <string>
 #include "../List/Graph/Graph.h"
 
+#pragma execution_character_set("utf-8");
 using namespace std;
 
 int main(){
+    SetConsoleOutputCP(65001);
     list::Graph graph3(4);
     graph3.addWord("cat");
     graph3.addWord("cot");
